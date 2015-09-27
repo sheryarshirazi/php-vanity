@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule .* - [L]
+RewriteRule ^(.*)$ http://localhost:8080/LANGUAGES/php/applications/vanity/profile.php?u=$1 [NC] |

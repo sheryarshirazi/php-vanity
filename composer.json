@@ -1,0 +1,14 @@
+{
+    "name": "vendor/sheryar",
+    "description": "vanity implementation",
+    "require-dev": {
+        "fzaninotto/faker": "1.4.0"
+    },
+    "authors": [
+        {
+            "name": "Sheryar Shirazi",
+            "email": "sheryarshirazi@gmail.com"
+        }
+    ],
+    "require": {}
+}
