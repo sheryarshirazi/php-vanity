@@ -2,7 +2,9 @@
 
 include_once 'dbconnect.php';
 
-$url = 'http://'. $_SERVER['HTTP_HOST'] .'/LANGUAGES/php/applications/vanity/';
+// $url = 'http://'. $_SERVER['HTTP_HOST'] .'/LANGUAGES/php/applications/vanity/';
+
+$url = "http://$_SERVER[HTTP_HOST]/LANGUAGES/php/applications/vanity/";
 
 $stmt = $conn->query('SELECT username FROM users');
 
